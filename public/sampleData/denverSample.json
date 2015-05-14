@@ -1,0 +1,42 @@
+window.Weather = {
+              "coord": {
+                "lon": -104.99,
+                "lat": 39.74
+              },
+              "sys": {
+                "message": 0.0146,
+                "country": "United States of America",
+                "sunrise": 1431431252,
+                "sunset": 1431482705
+              },
+              "weather": [
+                {
+                  "id": 800,
+                  "main": "Clear",
+                  "description": "Sky is Clear",
+                  "icon": "01d"
+                }
+              ],
+              "base": "stations",
+              "main": {
+                "temp": 284.374,
+                "temp_min": 284.374,
+                "temp_max": 284.374,
+                "pressure": 813.82,
+                "sea_level": 1028.97,
+                "grnd_level": 813.82,
+                "humidity": 64
+              },
+              "wind": {
+                "speed": 1.78,
+                "deg": 207.001
+              },
+              "clouds": {
+                "all": 0
+              },
+              "dt": 1431439165,
+              "id": 5419384,
+              "name": "Denver",
+              "cod": 200
+            };
+console.log("json");

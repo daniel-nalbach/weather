@@ -22,11 +22,17 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
+  font-size: 20px;
   margin-top: 0;
+}
+
+h3 {
+  font-size: 16px;
 }
 
 header {
   background-color: $blue;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, .5), 0px 5px 15px rgba(0, 0, 0, .2);
   color: $white;
 }
 
@@ -45,7 +51,7 @@ header, footer, main {
 
 .card {
   border-radius: 3px;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, .5), 0px 3px 12px rgba(0, 0, 0, .2);
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, .5), 0px 4px 15px rgba(0, 0, 0, .2);
   box-sizing: border-box;
   padding: $space;
 }

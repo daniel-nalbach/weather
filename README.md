@@ -15,7 +15,7 @@ Running the app is done with:
 npm start
 ```
 
-which executes `node ./bin/www` to start the server (port 3000 by default).
+which executes `node ./bin/www` to start the server (port 7500 by default).
 
 ## Structure
 

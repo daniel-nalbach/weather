@@ -1,4 +1,4 @@
-$('document').ready(function() {
+$(document).ready(function() {
   var tempC = Weather.main.temp - 273.15;
   var tempF = Math.floor((tempC * (9/5)) + 32);
   $('header h1').text(Weather.name);

@@ -12,7 +12,9 @@ var users = require('./routes/users');
 var app = express();
 
 // view engine setup
-app.engine('handlebars', exphbs({defaultLayout: 'main'}));
+// Register Handlebars view engine. express-handlebars v8 exports an
+// `engine` function which is used with `app.engine`.
+app.engine('handlebars', exphbs.engine({ defaultLayout: 'main' }));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'handlebars');
 
